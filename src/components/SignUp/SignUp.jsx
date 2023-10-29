@@ -108,14 +108,16 @@ export default function SignUp() {
         <Input type="text" placeholder="Your Name" />
 
         <Label>Mail ID</Label>
-        <Input type="text" placeholder="Enter Mail ID" />
+        <Input type="mail" placeholder="Enter Mail ID" />
 
         <Label>Password</Label>
         <Input type="password" placeholder="Password" />
+        <Label>Confirm Password</Label>
+        <Input type="password" placeholder="Confirm Password" />
       </Div1>
 
       <Div>
-        <Input2 type="checkbox" placeholder="Password" content="rm" />
+        <Input2 type="checkbox" />
         <span>
           I agree To <Span>Terms & Conditions</Span>{" "}
         </span>

@@ -112,7 +112,7 @@ function Login() {
         <Span>Forgot Password?</Span>
       </Div1>
       <Div>
-        <Input2 type="checkbox" placeholder="Password" content="rm" />
+        <Input2 type="checkbox" />
         <span>Remember Me</span>
       </Div>
 
