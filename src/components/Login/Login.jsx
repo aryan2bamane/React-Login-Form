@@ -97,7 +97,6 @@ const Div = styled.div`
 const Label = styled.p`
   /* font-size: 20px; */
   font-weight: 600;
-
 `;
 
 function Login() {
@@ -110,17 +109,18 @@ function Login() {
 
         <Label>Password</Label>
         <Input type="password" placeholder="Password" />
+        <Span>Forgot Password?</Span>
       </Div1>
       <Div>
         <Input2 type="checkbox" placeholder="Password" content="rm" />
         <span>Remember Me</span>
       </Div>
-      
+
       <Button type="Button">Login</Button>
       <span>
         Don&#39;t Have an Account?{" "}
-        <Link to="signup">
-          <Span>Sign Up</Span>
+        <Link to="signup" id="link">
+          <Span>Sign Up </Span>
         </Link>
         Here
       </span>

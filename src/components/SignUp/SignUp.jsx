@@ -113,7 +113,7 @@ export default function SignUp() {
         <Label>Password</Label>
         <Input type="password" placeholder="Password" />
       </Div1>
-      
+
       <Div>
         <Input2 type="checkbox" placeholder="Password" content="rm" />
         <span>
@@ -123,7 +123,7 @@ export default function SignUp() {
       <Button type="Button">Sign Up</Button>
       <span>
         Already Have an Account?{" "}
-        <Link id="redirect" to="/">
+        <Link id="link" to="/">
           <Span>Log In</Span>{" "}
         </Link>{" "}
         Here
